@@ -1,0 +1,47 @@
+body {
+    background: lightskyblue;
+}
+
+.grid {
+    margin-left: 550px;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    box-shadow: 0 0 10px black;
+    resize: both;
+    overflow: auto;
+}
+
+.grid div {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    box-shadow: inset 0px 0px 2px 0px black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid div:active {
+    height: 50px;
+    width: 50px;
+    box-shadow: inset 2px 2px 6px rgb(51, 46, 46);
+    transform: scale(0.94);
+}
+
+
+.checked {
+    background-color: rgba(255, 0, 0, 0.747);
+}
+
+.bomb {
+    background-color: gray;
+
+}
+
+.flag {
+    box-sizing: border-box;
+}
