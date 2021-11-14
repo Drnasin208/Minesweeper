@@ -11,8 +11,8 @@ body {
 
 .grid {
 
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,6 +21,7 @@ body {
     box-shadow: 0 0 10px black;
     resize: both;
     overflow: auto;
+    margin:0 auto;
 }
 
 .grid div {
