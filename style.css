@@ -35,8 +35,8 @@ body {
 }
 
 .grid div:active {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     box-shadow: inset 2px 2px 6px rgb(51, 46, 46);
     transform: scale(0.94);
 }
@@ -48,6 +48,7 @@ body {
 
 .bomb {
     background-color: gray;
+    transform: scale(1.5);
 
 }
 
