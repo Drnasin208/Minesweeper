@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //show all the Bombs
         squares.forEach(square => {
             if (square.classList.contains('bomb')) {
-                square.innerHTML = '💣'<a href="https://giphy.com/stickers/glitchers-bomb-tnt-exploding-xL7FqDrpmKhS4ALfmo">via GIPHY</a>
+                square.innerHTML = url("https://giphy.com/stickers/glitchers-bomb-tnt-exploding-xL7FqDrpmKhS4ALfmo")
             }
         })
     }
