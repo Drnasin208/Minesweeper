@@ -9,6 +9,7 @@ body {
     margin: 100px auto;
 }
 .bomby{
+    background-size:cover;
     background:url('bomb.svg');
 }
 
