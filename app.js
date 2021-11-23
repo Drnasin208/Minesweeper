@@ -149,7 +149,8 @@ document.addEventListener('DOMContentLoaded', () => {
         //show all the Bombs
         squares.forEach(square => {
             if (square.classList.contains('bomb')) {
-                square.innerHTML ='💣';
+                //square.innerHTML ='💣';
+                square.innerHTML= url(bomb.svg);
             }
         })
     }
