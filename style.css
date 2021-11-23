@@ -8,6 +8,9 @@ body {
     align-items: center;
     margin: 100px auto;
 }
+.bomby{
+    background:url('bomb.svg');
+}
 
 .grid {
 
