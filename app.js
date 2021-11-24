@@ -150,6 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
         squares.forEach(square => {
             if (square.classList.contains('bomb')) {
                 square.classList.add('bomby');
+                this.style.borderRadius ='30%';
                // square.innerHTML ='💣';
                 //square.innerHTML= url('bomb.svg');
             }
