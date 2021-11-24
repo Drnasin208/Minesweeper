@@ -150,11 +150,14 @@ document.addEventListener('DOMContentLoaded', () => {
         squares.forEach(square => {
             if (square.classList.contains('bomb')) {
                 square.classList.add('bomby');
-                
+                if(this.classList.contains('bomb')){
+                   this.classList.style.background = 'black';
+                }
+               
                // square.innerHTML ='💣';
                 //square.innerHTML= url('bomb.svg');
             }
-            this.square.style.borderRadius ='30%';
+           
         })
     }
 
