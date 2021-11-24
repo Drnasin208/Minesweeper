@@ -13,6 +13,12 @@ body {
     background:url('bomb.svg');
     background-repeat: no-repeat;
 }
+.bombyFirst{
+    transform:scale(1.5);
+    background-size:cover;
+    background:url('bomb.svg');
+    background-repeat: no-repeat;
+}
 
 .grid {
 
