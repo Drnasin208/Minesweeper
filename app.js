@@ -150,8 +150,8 @@ document.addEventListener('DOMContentLoaded', () => {
         squares.forEach(square => {
             if (square.classList.contains('bomb')) {
                 square.classList.add('bomby');
-                if(this.classList.contains('bomb')){
-                   this.classList.style.background = 'black';
+                if(this.contains('bomb')){
+                   this.style.background = 'black';
                 }
                
                // square.innerHTML ='💣';
