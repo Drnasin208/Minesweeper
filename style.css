@@ -68,6 +68,7 @@ h1{
     box-sizing: border-box;
 }
 
+.btn:focus { outline: none; };
 .btn{
     border:none;
    margin-left:40%;
