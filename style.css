@@ -21,9 +21,9 @@ body {
 }
 
 .grid {
-
-    width: 700px;
-    height: 700px;
+    top:30%;
+    width: 600px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,7 +37,7 @@ body {
 
 .grid div {
     display: flex;
-    height: 70px;
+    height: 60px;
     width: 70px;
     box-shadow: inset 0px 0px 2px 0px black;
     justify-content: center;
@@ -46,8 +46,8 @@ body {
 }
 
 .grid div:active {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     box-shadow: inset 2px 2px 6px rgb(51, 46, 46);
     transform: scale(0.94);
 }
