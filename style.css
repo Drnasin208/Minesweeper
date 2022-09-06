@@ -1,5 +1,5 @@
 body {
-    background: lightskyblue;
+    background: #20B2AA;
 }
 h1{
     text-align:center;
@@ -69,7 +69,7 @@ h1{
 }
 @media screen and (max-width: 580px) {
     body {
-    background:tomato;
+    background:#20B2AA;
      
 }
     .grid {
