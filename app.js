@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let squares = []
     let isGameOver = false
     
-    const init = function () {
-        createBoard() ;
+    const init = () =>
+        createBoard();
         addFlag(square);
-    }
+    
     init();
 
     //create Board
