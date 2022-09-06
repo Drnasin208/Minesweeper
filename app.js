@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isGameOver = false
     
   const init = function () {
-      bodyNew.classList.add('grid');
+      
   }
     init();
 
