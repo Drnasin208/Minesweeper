@@ -1,10 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('.grid')
+    const btnNew = document.querySelector('.btn');
     let width = 10
     let bombAmount = 20
     let flags = 0
     let squares = []
     let isGameOver = false
+    
+    const init = function () {
+        createBoard() ;
+        addFlag(square);
+    }
+    init();
 
     //create Board
     function createBoard() {
@@ -172,10 +179,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
-
-
-
-
-
-
+    
 })
+btnNew.addEventListener('click', init);
