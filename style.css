@@ -53,7 +53,7 @@ body {
 }
 
 .checked {
-    background-color: rgba(255, 0, 0, 0.747);
+    background-color: "green";
 }
 
 .bomb {
