@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('.grid')
     const btnNew = document.querySelector('.btn');
+    const bodyNew = document.querySelector('body');
     let width = 10
     let bombAmount = 20
     let flags = 0
     let squares = []
     let isGameOver = false
     
-    const init = () =>
-        createBoard();
-        addFlag(square);
-    
+  const init = function () {
+      bodyNew.classList.add('grid');
+  }
     init();
 
     //create Board
