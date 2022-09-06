@@ -69,7 +69,8 @@ h1{
 }
 
 .btn{
-    text-align:center;
+   margin-left:30%;
+    margin-top:20px;
     font-size:20px;
     border-radius:20px;
     padding:5px;
