@@ -9,9 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let isGameOver = false
     
   const init = function () {
-      
+       console.log("BTNNEW CLICK !!!")
   }
     init();
+    
+    btnNew.addEventListener('click', init);
 
     //create Board
     function createBoard() {
@@ -181,4 +183,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
 })
-btnNew.addEventListener('click', init);
+
