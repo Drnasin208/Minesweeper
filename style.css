@@ -71,18 +71,18 @@ body {
 }
     .grid {
         top:30%;
-        width: 400px;
-        height: 400px;
+        width: 360px;
+        height: 360px;
        }
 
     .grid div {
         display: flex;
-        height: 40px;
-        width: 40px;
+        height: 36px;
+        width: 36px;
         }
 
     .grid div:active {
-        height: 40px;
-        width: 40px;
+        height: 36px;
+        width: 36px;
        }
     }
