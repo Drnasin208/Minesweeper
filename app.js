@@ -187,7 +187,7 @@
                 console.log('YOU WIN !!!')
                 isGameOver = true
                 }
-    }
+    })
     }
  });
 btn.addEventListener('click', init);
