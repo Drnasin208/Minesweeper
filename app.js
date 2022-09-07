@@ -361,5 +361,5 @@
     
     
              btn.addEventListener('click', init);
-        })
+        });
 
