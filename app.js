@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+
     const grid = document.querySelector('.grid')
     const btnNew = document.querySelector('.btn');
     const bodyNew = document.querySelector('body');
@@ -358,6 +358,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
-})
+
 btnNew.addEventListener('click', init);
 
