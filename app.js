@@ -1,6 +1,6 @@
 
     const grid = document.querySelector('.grid')
-    const btnNew = document.querySelector('.btn');
+    const btn = document.querySelector('.btn');
     const bodyNew = document.querySelector('body');
     let width = 10
     let bombAmount = 20
@@ -359,5 +359,5 @@
     }
     
 
-btnNew.addEventListener('click', init);
+btn.addEventListener('click', init);
 
