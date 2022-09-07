@@ -8,12 +8,43 @@ document.addEventListener('DOMContentLoaded', () => {
     let squares = []
     let isGameOver = false
     
-  const init = function () {
-       console.log("BTNNEW CLICK !!!")
-  }
-    init();
+  };
+        const init = function () {
+            let width = 10
+            let bombAmount = 20
+            let flags = 0
+            let squares = []
+            let isGameOver = false;
     
-    btnNew.addEventListener('click', init);
+            function createBoard() {
+        //get shuffled game array  with random bombs
+        const bombsArray = Array(bombAmount).fill('bomb')
+        const emptyArray = Array(width * width - bombAmount).fill('valid')
+        const gameArray = emptyArray.concat(bombsArray)
+        const shuffledArray = gameArray.sort(() => Math.random() - 0.5)
+
+        for (let i = 0; i < width * width; i++) {
+            const square = document.createElement('div')
+            square.setAttribute('id', i)
+            square.classList.add(shuffledArray[i])
+            grid.appendChild(square)
+            squares.push(square)
+
+            //normal click
+            square.addEventListener('click', function (e) {
+                click(square)
+            })
+
+            //cntrl and left click
+            square.oncontextmenu = function (e) {
+                e.preventDefault()
+                addFlag(square)
+            }
+        }
+        }
+       init();
+    
+  
 
     //create Board
     function createBoard() {
@@ -183,4 +214,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
 })
+btnNew.addEventListener('click', init);
 
