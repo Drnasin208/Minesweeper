@@ -1,5 +1,5 @@
 
-    const grid = document.querySelector('.grid')
+    const grid = document.querySelector('.grid');
     const btn = document.querySelector('.btn');
     const bodyNew = document.querySelector('body');
     let width = 10
@@ -10,14 +10,14 @@
     
  
         const init = function () {
-             const grid = document.querySelector('.grid')
-    const btnNew = document.querySelector('.btn');
-    const bodyNew = document.querySelector('body');
-    let width = 10
-    let bombAmount = 20
-    let flags = 0
-    let squares = []
-    let isGameOver = false
+             const grid = document.querySelector('.grid');
+            const btnNew = document.querySelector('.btn');
+            const bodyNew = document.querySelector('body');
+            let width = 10
+            let bombAmount = 20
+            let flags = 0
+            let squares = []
+            let isGameOver = false
     
            
     //create Board
