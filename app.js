@@ -350,15 +350,16 @@
         for (let i = 0; i < squares.length; i++) {
             if (squares[i].classList.contains('flag') && squares[i].classList.contains('bomb')) {
                 matches++
-            }
+                                  }
             if (matches === bombAmount) {
                 console.log('YOU WIN !!!')
                 isGameOver = true
-            }
+                                 }
+            
+           }
         }
-    }
     
-    }
+    
              btn.addEventListener('click', init);
         })
 
