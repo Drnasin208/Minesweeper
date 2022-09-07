@@ -356,10 +356,8 @@
                 isGameOver = true
                 }
     }
-  }
+    }
+ });
+btn.addEventListener('click', init);
 
-    
-    
-             btn.addEventListener('click', init);
-        });
 
