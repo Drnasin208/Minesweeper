@@ -356,7 +356,7 @@
                 isGameOver = true
                                  }
             
-           }
+           }}
         }
     
     
