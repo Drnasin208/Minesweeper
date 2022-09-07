@@ -18,7 +18,7 @@
             let flags = 0
             let squares = []
             let isGameOver = false
- 
+            }
        init();
     
   
