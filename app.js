@@ -1,4 +1,4 @@
-    (document.ready(function() {
+    document.addEventListener("DOMContentLoaded", () => {
     const grid = document.querySelector('.grid');
     const btn = document.querySelector('.btn');
     const bodyNew = document.querySelector('body');
@@ -354,10 +354,10 @@
             if (matches === bombAmount) {
                 console.log('YOU WIN !!!')
                 isGameOver = true
-                                 }
-            
-           }}
-        }
+                }
+    }
+  }
+
     
     
              btn.addEventListener('click', init);
