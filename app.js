@@ -1,4 +1,4 @@
-
+    document.ready(function() {
     const grid = document.querySelector('.grid');
     const btn = document.querySelector('.btn');
     const bodyNew = document.querySelector('body');
@@ -359,5 +359,6 @@
     }
     
 
-btn.addEventListener('click', init);
+             btn.addEventListener('click', init);
+        });
 
