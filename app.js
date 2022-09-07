@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let squares = []
     let isGameOver = false
     
-  };
+ 
         const init = function () {
              const grid = document.querySelector('.grid')
     const btnNew = document.querySelector('.btn');
