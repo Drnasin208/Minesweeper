@@ -161,7 +161,7 @@
         isGameOver = true
 
         //show all the Bombs
-        squares.forEach(square => {
+        squares.forEach(square) => {
             if (square.classList.contains('bomb')) {
                 square.classList.add('bomby');
             
@@ -332,7 +332,7 @@
         isGameOver = true
 
         //show all the Bombs
-        squares.forEach(square => {
+        squares.forEach(square) => {
             if (square.classList.contains('bomb')) {
                 square.classList.add('bomby');
             
